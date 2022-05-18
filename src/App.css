@@ -1,6 +1,21 @@
 .App {
   text-align: center;
 }
+*{
+  box-sizing: border-box;
+}
+
+.hover{
+  border-radius: 0.625rem;
+  cursor: pointer;
+  box-shadow: 0 0 2px 2px #65e9d9
+}
+
+.checkBorder{
+  border: 2px solid #3D8479;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
 .App-logo {
   height: 40vmin;
